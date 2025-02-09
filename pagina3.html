@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mar - Adopción Salvaje</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #ebf5fb;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        header, footer {
+            background-color: #d4e6f1 !important;
+        }
+
+        header h1, .header-icon a, footer p {
+            color: #2874A6 !important;
+        }
+
+        .texto-mar {
+            max-width: 800px;
+            margin: 50px auto;
+            font-size: 28px;
+            font-weight: bold;
+            color: #2874A6;
+            line-height: 1.5;
+        }
+
+        .mar-destacado {
+            color: #1b4f72;
+            font-weight: bold;
+        }
+
+        .descripcion {
+            font-size: 20px;
+            font-weight: normal;
+            color: #1b4f72;
+            margin-top: 10px;
+        }
+
+        .galeria {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .galeria-item {
+            text-align: center;
+            width: 30%;
+        }
+
+        .galeria img {
+            width: 100%;
+            max-width: 400px;
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.1);
+        }
+
+        .galeria p {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1b4f72;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mar</h1>
+        <div class="header-icon">
+            <a href="index.html">Inicio</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="texto-mar">
+            <p><strong>Explora un <span class="mar-destacado">MAR</span> de posibilidades</strong> gracias a estos <span class="mar-destacado">MAR</span>avillosos animales!</p>
+            <p class="descripcion">Los océanos y mares son ecosistemas con gran variedad de animales como delfines, leones marinos y tortugas.</p>
+        </section>
+
+        <section class="galeria">
+            <div class="galeria-item">
+                <a href="adopcion.html">
+                    <img src="img/delfin.jpg" alt="Delfín">
+                </a>
+                <p>Delfín</p>
+            </div>
+            <div class="galeria-item">
+                <a href="adopcion.html">
+                    <img src="img/leonmarino.jpg" alt="León Marino">
+                </a>
+                <p>León Marino</p>
+            </div>
+            <div class="galeria-item">
+                <a href="adopcion.html">
+                    <img src="img/tortuga.jpg" alt="Tortuga">
+                </a>
+                <p>Tortuga</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Adopción Salvaje</p>
+    </footer>
+</body>
+</html>

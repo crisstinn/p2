@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Adopción</title>
+    <style>
+        /*estilo general*/
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FAF3E0;
+            color: #4A4A4A;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /*que no se deslice de forma horizontal */
+        }
+
+        header {
+            background-color: #E8D9C1;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .header-icon {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+        }
+
+        .header-icon a {
+            text-decoration: none;
+            color: #4A4A4A;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .formulario-contenedor {
+            max-width: 400px;
+            margin: 30px auto;
+            text-align: left;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #7B6E5A;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #5E5145;
+        }
+
+        footer {
+            background-color: #E8D9C1;
+            padding: 15px;
+            font-size: 14px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        ¿Tienes alguna duda? Contactaremos contigo
+        <div class="header-icon">
+            <a href="index.html">Inicio</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="formulario-contenedor">
+            <form action="" method="get">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+                <label for="telefono">Teléfono de contacto:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono" required>
+
+                <label for="ecosistema">Ecosistema de preferencia:</label>
+                <select name="ecosistema" id="ecosistema">
+                    <option value="antartida">Antártida</option>
+                    <option value="sabana" selected>Sabana</option>
+                    <option value="mar">Mar</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>&copy; 2025 Adopción Salvaje</footer>
+
+</body>
+</html>

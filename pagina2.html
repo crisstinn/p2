@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabana - Adopción Salvaje</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #e9f7ef;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        header, footer {
+            background-color: #a9dfbf !important;
+        }
+
+        header h1, .header-icon a, footer p {
+            color: #196F3D !important;
+        }
+
+        .texto-sabana {
+            max-width: 800px;
+            margin: 50px auto;
+            font-size: 28px;
+            font-weight: bold;
+            color: #196F3D;
+            line-height: 1.5;
+        }
+
+        .selva-texto {
+            color: #186a3b;
+            font-size: 34px;
+        }
+
+        .descripcion {
+            font-size: 20px;
+            font-weight: normal;
+            color: #186a3b;
+            margin-top: 10px;
+        }
+
+        .galeria {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .galeria-item {
+            text-align: center;
+            width: 30%;
+        }
+
+        .galeria img {
+            width: 100%;
+            max-width: 400px;
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.1);
+        }
+
+        .galeria p {
+            font-size: 24px;
+            font-weight: bold;
+            color: #186a3b;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sabana</h1>
+        <div class="header-icon">
+            <a href="index.html">Inicio</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="texto-sabana">
+            <p><strong>HAKUNA MATATA!</strong></p>
+            <p class="descripcion">La sabana es un ecosistema de gran diversidad, en el habitan desde leones hasta enormes jirafas e hipopotamos.</p>
+        </section>
+
+        <section class="galeria">
+            <div class="galeria-item">
+                <a href="adopcion.html">
+                    <img src="img/leon.jpg" alt="León">
+                </a>
+                <p>León</p>
+            </div>
+            <div class="galeria-item">
+                <a href="adopcion.html">
+                    <img src="img/cabezajirafa.jpg" alt="Jirafa">
+                </a>
+                <p>Jirafa</p>
+            </div>
+            <div class="galeria-item">
+                <a href="adopcion.html">
+                    <img src="img/hipopotamo.jpg" alt="Hipopotamo">
+                </a>
+                <p>Hipopotamo</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Adopción Salvaje</p>
+    </footer>
+</body>
+</html>

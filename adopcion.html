@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopción Salvaje</title>
+    <style>
+        html, body {
+            height: 100%; 
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column; 
+        }
+
+        body {
+            background-color: #FDEBD0; 
+        }
+
+        /*barra arriba*/
+        header {
+            background-color: #f5cba7; 
+            padding: 20px;
+            color: #521908;
+        }
+
+        /*texto principal*/
+        .mensaje {
+            margin-top: 100px;
+            font-size: 40px;
+            font-weight: bold;
+            color: #521908;
+            line-height: 1.5;
+            flex-grow: 1; 
+        }
+
+        .mensaje span {
+            color: #BB2D3B; /*destacar SALVAJE*/
+        }
+
+        /*enlace de seguir adoptando*/
+        .link-seguir {
+            margin-top: 30px;
+            display: inline-block;
+            font-size: 20px;
+            color: #521908;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease, text-decoration 0.3s ease;
+        }
+
+        .link-seguir:hover {
+            text-decoration: underline; 
+            color: #BB2D3B; 
+        }
+
+        /*barra abajo*/
+        footer {
+            background-color: #f5cba7; 
+            padding: 20px;
+            color: #521908;
+        }
+    </style>
+</head>
+<body>
+    <!--barra de arriba-->
+    <header>
+        <h1>Adopción Salvaje</h1>
+    </header>
+
+    <!--centro-->
+    <main class="mensaje">
+        <p>¡ENHORABUENA! <br> Qué adopción más <span>SALVAJE!</span></p>
+        <a href="index.html" class="link-seguir">Seguir adoptando</a>
+    </main>
+
+    <!--barra de abajo-->
+    <footer>
+        <p>&copy; 2025 Adopción Salvaje</p>
+    </footer>
+</body>
+</html>
